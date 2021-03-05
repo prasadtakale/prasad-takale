@@ -47,9 +47,9 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
             $mail->isSMTP();
             $mail->Mailer = "smtp";
             //Server settings
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+            $mail->SMTPDebug = 0; 
             $mail->SMTPAuth = true;
-            $mail->SMTPSecure = 'tls'; 
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
             $mail->Port = 587;  
 
 
@@ -96,8 +96,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
 
         }catch(Exception $e)
         {
-            //$response['status'] = 'error';
-            $response['status'] = $e;
+            $response['status'] = 'error';
         }
         
 
