@@ -47,7 +47,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
             $mail->isSMTP();
             $mail->Mailer = "smtp";
             //Server settings
-            $mail->SMTPDebug = 0; 
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'tls'; 
             $mail->Port = 587;  
@@ -77,7 +77,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
         
 
             $rec_template = new DOMDocument();
-            $rec_template->loadHTMLFile('message.html');
+            $rec_template->loadHTMLFile('message_dark.html');
             $rec_template->getElementById('name')->nodeValue = "Name: " . $_POST['name'];
             $rec_template->getElementById('email')->nodeValue = "Email: " . $_POST['email'];
             $rec_template->getElementById('message')->nodeValue = $_POST['text'];
