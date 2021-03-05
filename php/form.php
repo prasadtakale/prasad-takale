@@ -96,7 +96,8 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
 
         }catch(Exception $e)
         {
-            $response['status'] = 'error';
+            //$response['status'] = 'error';
+            $response['status'] = $e;
         }
         
 
