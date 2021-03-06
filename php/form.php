@@ -49,7 +49,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
             //Server settings
             $mail->SMTPDebug = 0; 
             $mail->SMTPAuth = true;
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
+            $mail->SMTPSecure = 'tls'; 
             $mail->Port = 587;  
 
 
