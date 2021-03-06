@@ -1,7 +1,7 @@
 <?php
-$email_host = 'smtp.gmail.com'; // SMTP host ex. smtp.gmail.com for gmail mailserver
-$email = 'prasadtakalewebsite@gmail.com'; // Your Email Address
-$email_passsword = 'Prasad-Takale@27'; //  Password
+$email_host = ''; // SMTP host ex. smtp.gmail.com for gmail mailserver
+$email = 'yaintakale@gmail.com'; // Your Email Address
+$email_passsword = 'Prasad@2700'; //  Password
 
 $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
 
