@@ -48,7 +48,7 @@ $(function () {
         if (!that.sended) {
             $.ajax({
                 //url: 'php/form.php',
-                url: 'https://formspree.io/f/mpzogvpb',
+                url: 'https://formspree.io/f/mrgownov',
                 type: "POST",
                 data: form.serialize(),
                 dataType: "json",
@@ -56,8 +56,8 @@ $(function () {
                     'Accept': 'application/json'
                 },
                 success: function (response) {
-                    var d = JSON.parse(response);
-                    if (d.status == 'success') {
+                    //var d = JSON.parse(response);
+                    if (response["ok"] == true) {
                         custom_alert(successMessage, 'success');
                         contact_state('disable');
 
