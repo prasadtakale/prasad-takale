@@ -103,6 +103,3 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
     }
     echo json_encode($response);
 ?>
-
-
-
