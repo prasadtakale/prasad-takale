@@ -54,6 +54,7 @@ $(function(){
                     url: 'https://formspree.io/f/mpzogvpb',
                     type: "POST",
                     data: form.serialize(),
+                    dataType: "json",
                     success: function(response) {
                         var d = JSON.parse(response);
                         if(d.status == 'success')
