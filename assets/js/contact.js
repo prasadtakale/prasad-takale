@@ -51,6 +51,7 @@ $(function(){
             {
                 $.ajax({
                     url: 'php/form.php',
+                    //url: 'https://formspree.io/f/mpzogvpb',
                     type: "POST",
                     data: form.serialize(),
                     success: function(response) {
