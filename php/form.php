@@ -1,7 +1,7 @@
 <?php
 $email_host = ''; // SMTP host ex. smtp.gmail.com for gmail mailserver
-$email = 'yaintakale@gmail.com'; // Your Email Address
-$email_passsword = 'Prasad@2700'; //  Password
+$email = ''; // Your Email Address
+$email_passsword = ''; //  Password
 
 $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
 
@@ -77,7 +77,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
         
 
             $rec_template = new DOMDocument();
-            $rec_template->loadHTMLFile('message_dark.html');
+            $rec_template->loadHTMLFile('message.html');
             $rec_template->getElementById('name')->nodeValue = "Name: " . $_POST['name'];
             $rec_template->getElementById('email')->nodeValue = "Email: " . $_POST['email'];
             $rec_template->getElementById('message')->nodeValue = $_POST['text'];
