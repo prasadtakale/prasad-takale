@@ -249,6 +249,9 @@
 .mbri-magic-stick:before {
   content: "\e94a";
 }
+.mbri-console:before {
+  content: "\e911";
+}
 .mbri-map-pin:before {
   content: "\e94b";
 }
