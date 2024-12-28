@@ -700,6 +700,38 @@ section.about .about-info span.desc {
 }
 
 /*========================
+    13. ACHIEVEMENT SECTION
+========================*/
+.achievement-single {
+  cursor: pointer;
+}
+
+.achievement-single:hover .achievement-icon {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.achievement-single .achievement-icon {
+  font-size: 2.5em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.achievement-single .achievement-icon i {
+  vertical-align: middle;
+}
+
+.achievement-single h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.achievement-single p {
+  font-weight: 300;
+}
+
+
+/*========================
     7. PORTFOLIO SECTION
 ========================*/
 .portfolio-filters a {

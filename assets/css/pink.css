@@ -27,6 +27,7 @@ Table of Content
     10. FACTS SECTION
     11. VIDEO SECTION
     12. TESTIMONIAL SECTION
+    13. ACHIEVEMENTS SECTION
         
 
 ******************/
@@ -275,6 +276,13 @@ section.about .about-info i {
     6. SERVICE SECTION
 ========================*/
 .service-single .service-icon {
+  color: #FC5185;
+}
+
+/*=======================
+    13. ACHIEVEMENTS SECTION
+========================*/
+.achievement-single .achievement-icon {
   color: #FC5185;
 }
 

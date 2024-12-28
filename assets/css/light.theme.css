@@ -33,6 +33,7 @@ Table of Content
     13. FACTS SECTION
     14. PROJECT SECTION
     15. VIDEO SECTION
+    16. ACHIEVEMENTS SECTION
 
 ******************/
 /*=================
@@ -296,6 +297,19 @@ section.about .about-info span.desc {
 }
 
 .service-single h3 {
+  color: #333333;
+}
+
+
+/*=======================
+    16. ACHIEVEMENTS SECTION
+========================*/
+.achievement-single {
+  background-color: #FFFFFF;
+  border: 1px solid #f8f8f8;
+}
+
+.achievement-single h3 {
   color: #333333;
 }
 

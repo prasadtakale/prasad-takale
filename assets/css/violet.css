@@ -279,6 +279,13 @@ section.about .about-info i {
 }
 
 /*=======================
+    13. ACHIEVEMENT SECTION
+========================*/
+.achievement-single .achievement-icon {
+  color: #8847b0;
+}
+
+/*=======================
     7. RESUME SECTION
 ========================*/
 .resume-list h4 {
