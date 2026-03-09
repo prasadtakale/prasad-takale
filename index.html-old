@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Useful meta tags-->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!--Magnific Popup Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <!--OWL Carousel Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <!--Font Awesome Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!--Mobirise-->
+    <link rel="stylesheet" href="./assets/css/mobirise/style.css">
+    <!--AOC-->
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!--Responsive Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!--Theme Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/dark.theme.css" id="optional-theme">
+    <!--Theme Color-->
+    <link rel="stylesheet" href="./assets/css/default.css" id="optional-color">
+    <!--MAIN TITLE-->
+    <title>Prasad Takale - Resume</title>
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy" data-offset="85">
+    <!--PRELOADER START-->
+    <div id="preloader">
+        <div class="text-center w-100">
+            <div class="loader"></div>
+        </div>
+    </div>
+    <!--PRELOADER END-->
+    <!--HEADER START-->
+    <header class="navigation horizontal_header navbar navbar-expand-lg fixed-top">
+        <div class="header-ins">
+            <div class="container">
+                <!--LOGO AREA-->
+                <div class="site-logo">
+                    <a href="#" class="hoveroff" title="RectCV">
+                        <!--<img src="" alt="">-->
+                        Prasad<span>CV</span>
+                    </a>
+                </div>
+                <button class="button-toggler navbar-toggler collapsed" type="button" data-target="#navigation"
+                    data-toggle="collapse" aria-controls="navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!--Main Navigation START-->
+                <ul class="justify-content-end scrollspy collapse navbar-collapse" id="navigation">
+                    <li>
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#service" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#achievements" class="nav-link">Key Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!--Main Navigation END-->
+
+            </div>
+        </div>
+
+    </header>
+    <!--HEADER END-->
+
+    <main class="content center-main">
+        <!--INTRODUCTION SECTION START-->
+        <section class="home d-flex" id="home">
+            <!--Parallax Background-->
+            <div class="background-parallax" id="parallaxbackground">
+                <div class="element1 element red" data-depth="0.8"></div>
+                <div class="element2 element green" data-depth="0.5"></div>
+                <div class="element3 element blue" data-depth="0.2"></div>
+                <div class="element4 element red" data-depth="0.4"></div>
+                <div class="element5 element orange" data-depth="0.3"></div>
+                <div class="element6 element blue" data-depth="0.2"></div>
+            </div>
+            <!--End of Parallax Background-->
+            <div class="container introduction text-center">
+                <p class="welcome_text mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150">I'm <span
+                        class="welcome-text-type"
+                        data-options="DevOps Tech Lead, DevOps Engineer,Cloud Operations Engineer,System Engineer"></span>
+                </p>
+                <div id="parallax-scene" class="mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                    <div class="heading-zone">
+                        <h1>Prasad Takale</h1>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="450">
+                    <a href="#about" class="btn  btn-primary btn-small">Learn More</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" class="scroll-down-link text-center hoveroff">
+                    <div class="scroll-title">Scroll Down</div>
+                    <div class="scroll-mouse">
+                        <div class="whell"></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!--INTRODUCTION SECTION END-->
+
+
+        <!--ABOUT SECTION START-->
+        <section class="about" id="about">
+            <div class="container d-flex justify-content-between flex-column h-100">
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">Who Am I</h2>
+                                <p class="m-0">Get to know me</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content flex-grow-1">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6">
+                            <div class="avatar-area m-auto">
+                                <img src="assets/images/prasad2.jpg" alt="" class="img-fluid mx-auto">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5 mt-md-0">
+                            <h3 class="m-0">I'm Prasad Takale</h3>
+                            <p class="my-4">A highly experienced DevOps Tech Lead with 9+ years of progressive
+                                experience in IT, starting with a strong foundation in Linux and Cloud Operations and
+                                evolving into deep expertise in DevOps. Adept in Docker, Kubernetes, CI/CD workflows,
+                                AWS, and Terraform, with a proven history of improving infrastructure efficiency and
+                                application performance. Achievements include a 20% reduction in infrastructure costs
+                                and a 15% boost in application efficiency. Committed to driving technical innovation and
+                                delivering impactful solutions through strong leadership and collaboration.
+                                <br>
+                            </p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Full Name:</span>
+                                        <span>Prasad Takale</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Gender:</span>
+                                        <span>Male</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Birth Date:</span>
+                                        <span>1 September 1987</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Experience:</span>
+                                        <span>9+ years</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Email:</span>
+                                        <span>yatintakale@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Phone:</span>
+                                        <span>(+91) 096658 74727</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Nationality:</span>
+                                        <span>Indian</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-info mb-2">
+                                        <span class="desc">Adress:</span>
+                                        <span>Pune, Maharashtra</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="button_and_social my-4">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-xl-6">
+                                        <a href="https://drive.google.com/file/d/13DRzdNytkTuAUrvP5pGr8dOKhgT9Tuy8/view?usp=sharing"
+                                            class="btn btn-outline-primary btn-lg" target="_blank">Download CV</a>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <ul class="social-icons list-inline mt-4 mt-xl-0">
+                                            <li class="list-inline-item">
+                                                <a href="https://www.facebook.com/prasad.s.takle">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="https://www.linkedin.com/in/prasadtakale/">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="https://prasadtakale.medium.com/">
+                                                    <i class="fab fa-medium"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--ABOUT SECTION END-->
+
+        <!--FACTS SECTION START-->
+        <div class="section facts backgound-section" style="background-image: url(assets/images/bg5.jpg)"
+            data-aos-id="facts">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                        <div class="fact-single text-center">
+                            <div class="fact-icon">
+                                <span class="mbri-timer"></span>
+                            </div>
+                            <div class="fact-info">
+                                <span class="tmcounter" data-from="0" data-to="9" data-speed="1500">9</span>+
+                            </div>
+                            <div class="fact-meta">
+                                <span>Years Experiance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                        <div class="fact-single text-center">
+                            <div class="fact-icon">
+                                <span class="mbri-code"></span>
+                            </div>
+                            <div class="fact-info">
+                                <span class="tmcounter" data-from="0" data-to="6000" data-speed="1500">6000</span>+
+                            </div>
+                            <div class="fact-meta">
+                                <span>Lines of Code</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                        <div class="fact-single text-center">
+                            <div class="fact-icon">
+                                <span class="mbri-speed"></span>
+                            </div>
+                            <div class="fact-info">
+                                <span class="tmcounter" data-from="0" data-to="2000" data-speed="1500">2000</span>+
+                            </div>
+                            <div class="fact-meta">
+                                <span>Server Installation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                        <div class="fact-single text-center">
+                            <div class="fact-icon">
+                                <span class="mbri-hot-cup"></span>
+                            </div>
+                            <div class="fact-info">
+                                <span class="tmcounter" data-from="0" data-to="5000" data-speed="1500">5000</span>+
+                            </div>
+                            <div class="fact-meta">
+                                <span>Cups of Tea</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--FACTS SECTION END-->
+
+
+
+        <!--SERVICES SECTION START-->
+        <section class="services" id="service">
+            <div class="container d-flex flex-column justify-content-between h-100 ">
+
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">What I Do</h2>
+                                <p class="m-0">Some of my areas of expertise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="mbri-edit"></span>
+                                </div>
+                                <h3 class="my-3">Automation & Scripting</h3>
+                                <p>Develop automation scripts and tools using Python and Shell scripting to streamline
+                                    processes and improve efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="mbri-rocket"></span>
+                                </div>
+                                <h3 class="my-3">Deployment</h3>
+                                <p>Deploy and manage applications across different environments, ensuring high
+                                    availability and scalability.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="fab fa-linux"></span>
+                                </div>
+                                <h3 class="my-3">Linux/Ubuntu</h3>
+                                <p>Administer and maintain Linux/Ubuntu systems, ensuring optimal performance and
+                                    security.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="mbri-magic-stick"></span>
+                                </div>
+                                <h3 class="my-3">Process Automation</h3>
+                                <p>Automate tasks and workflows to improve efficiency and reduce manual effort.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="mbri-setting"></span>
+                                </div>
+                                <h3 class="my-3">Infra Development</h3>
+                                <p>Design, implement, and manage cloud infrastructure using tools like Terraform and AWS
+                                    CloudFormation.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <div class="service-icon">
+                                    <span class="fab fa-docker"></span>
+                                </div>
+                                <h3 class="my-3">Create and Manage</h3>
+                                <p>Build, deploy, and manage containerized applications using Docker and Kubernetes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--ACHIEVEMENTS SECTION START-->
+        <section class="achievements" id="achievements">
+            <div class="container d-flex flex-column justify-content-between h-100 ">
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">Key Achievements</h2>
+                                <p class="m-0">Notable accomplishments throughout my career</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <h3 class="my-3">Leadership & Collaboration</h3>
+                                <p style="text-align: left;">Led and mentored a team of 4 DevOps engineers,
+                                    increasing project efficiency by 20% and fostering cross-functional collaboration.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <div class="achievement-icon">
+                                </div>
+                                <h3 class="my-3">Security & Compliance</h3>
+                                <p style="text-align: left;">Enhanced cloud security by enforcing best practices and
+                                    ensuring 100% compliance with
+                                    FedRAMP and HIPAA regulations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <div class="achievement-icon">
+                                </div>
+                                <h3 class="my-3">Containerization & Orchestration</h3>
+                                <p style="text-align: left;">Leveraged Docker and Kubernetes for containerization,
+                                    ensuring high availability,
+                                    scalability, and efficient resource utilization.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <div class="achievement-icon">
+                                </div>
+                                <h3 class="my-3">Automation and Scripting</h3>
+                                <p style="text-align: left;">Automated server deployments and OS configurations,
+                                    reducing manual effort by 50%,
+                                    and improved efficiency with Bash and Python scripts.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <div class="achievement-icon">
+                                </div>
+                                <h3 class="my-3">System Reliability & Monitoring</h3>
+                                <p style="text-align: left;">Maintained 99.5% uptime for SaaS services and reduced
+                                    incident response time by 40%.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="achievement-single text-center p-5">
+                                <div class="achievement-icon">
+                                </div>
+                                <h3 class="my-3">Cloud Expertise & Optimization</h3>
+                                <p style="text-align: left;">Reduced infrastructure costs by 20% and improved
+                                    application performance by 15%
+                                    through effective cloud resource management.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Video Section START-->
+        <!--
+        <div class="section about_movie text-center d-flex flex-column align-items-center backgound-section" style="background-image: url(assets/images/bg3.jpg)">
+            <div class="video-area">
+              <p class="mt-3">My Favorite TedTalk: <a> <b> <i>"Sarah Kay: If I should have a daughter..." <br>
+                <div style="max-width:420px">
+                  <div style="position:relative;height:0;padding-bottom:56.25%">
+                    <iframe src="https://embed.ted.com/talks/sarah_kay_if_i_should_have_a_daughter" width="420" height="240" style="position:absolute;left:10%;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                  </div>
+                </div> </i></b></a> </link>
+                <br>
+                <ul class="contact-info">
+
+                <p class="mt-3"></p>
+            </div>
+        </div> -->
+
+        <!--Video Section END-->
+
+        <section class="resume" id="resume">
+
+            <div class="container d-flex flex-column justify-content-between h-100 ">
+
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">My Experience</h2>
+                                <p class="m-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content flex-grow-1">
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <h3 class="mb-4">Education</h3>
+                            <ul class="list-inline resume-list">
+                                <li>
+                                    <h4 class="mb-2"> Master of Computer Applications,</h4>
+                                    <h4 class="mb-2"> Savitribai Phule Pune University, Pune.</h4>
+                                    <span class="time">2014</span>
+                                    <p class="my-2"><br></p>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2"> Bachelor of Computer Science </h4>
+                                    <h4 class="mb-2"> Annasaheb Magar College, Pune.</h4>
+                                    <span class="time">2011</span>
+                                    <p class="my-2"><br></p>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="mb-4">Experience</h3>
+                            <ul class="list-inline resume-list">
+                                <li>
+                                    <h4 class="mb-2">DevOps Tech Lead</h4>
+                                    <h4 class="mb-2">Enterprise Minds, Pune.</h4>
+                                    <span class="time">Nov 2022 - Present</span>
+                                    <p class="my-2">
+                                        • Led and managed a team of 4 DevOps engineers, increasing project efficiency by
+                                        20% and ensuring timely delivery of milestones.<br>
+                                        • Designed, implemented, and maintained Kubernetes clusters to ensure high
+                                        availability, optimize performance, and maximize resource utilization for
+                                        seamless application deployment and scaling.<br>
+                                        • Deployed, configured, and managed cloud services on AWS and Google Cloud,
+                                        contributing to improved application performance and availability.<br>
+                                        • Leveraged Docker Compose for local container orchestration and seamlessly
+                                        transitioned to Kubernetes for production, enhancing system consistency and
+                                        ensuring reliable deployments.<br>
+                                        • Collaborated with cross-functional teams and stakeholders to align with
+                                        project requirements, deliver actionable technical insights, and provide regular
+                                        updates.<br>
+                                        • Provided DevOps consulting services to clients, including guidance on
+                                        application architecture, deployment strategies using Docker Compose and
+                                        Kubernetes with security best practices.<br>
+                                        • Planned, architected, and deployed custom shell script applications for
+                                        clients, ensuring seamless integration with their existing infrastructure.<br>
+                                    </p>
+
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>Docker, Docker Compose, Kubernetes, AWS, Google Cloud, Shell Scripting, Jira,
+                                            Confluence</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2">DevOps Engineer</h4>
+                                    <h4 class="mb-2">Enterprise Minds, Pune.</h4>
+                                    <span class="time">Nov 2020 - Nov 2022</span>
+                                    <p class="my-2">
+                                        • Designed, implemented, and maintained robust CI/CD pipelines, achieving a 50%
+                                        reduction in software build and deployment time and a
+                                        30% increase in development efficiency using Jenkins and Git.<br>
+                                        • Configured and optimized cloud services, resulting in 30% cost savings while
+                                        maintaining high availability and improving application
+                                        performance.<br>
+                                        • Implemented and configured advanced monitoring and logging solutions such as
+                                        the ELK stack (Elasticsearch, Logstash, Kibana) and
+                                        Grafana, reducing incident response time by 40% and enhancing system
+                                        analysis.<br>
+                                        • Implemented security best practices for access control, network security, and
+                                        data protection within the cloud environment.<br>
+                                        • Streamlined release processes by integrating JIRA with Jenkins, reducing
+                                        manual interventions by 25% and achieving zero production
+                                        incidents during releases.<br>
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>Jenkins, Git, AWS, ELK Stack, Grafana, Jira</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2">DevOps Engineer</h4>
+                                    <h4 class="mb-2">Yotta Infrastructure Solutions LLP, New Mumbai.</h4>
+                                    <span class="time">May 2020 - Nov 2020</span>
+                                    <p class="my-2">
+                                        • Designed and streamlined a robust CI/CD pipeline using Jenkins and Git,
+                                        accelerating software development and deployment by 40%.<br>
+                                        • Orchestrated the creation and management of Docker containers, optimizing
+                                        scalability and resource utilization, and reducing infrastructure costs by
+                                        30%.<br>
+                                        • Leveraged Huawei's API to automate OS deployments on bare-metal servers,
+                                        incorporating user-defined configurations.<br>
+                                        • Automated application deployments on bare-metal servers, ensuring optimized
+                                        performance and hardware compatibility.<br>
+                                        • Led the adoption of Ansible for package installation and OS patching,
+                                        improving system security and stability while reducing manual interventions by
+                                        50%.<br>
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>Jenkins, Git, Docker, Ansible</p>
+                                    </div>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2">Staff Engineer : Cloud Operations </h4>
+                                    <h4 class="mb-2">Druva Data Solution Pvt. Ltd., Pune</h4>
+                                    <span class="time">Apr 2019 - Apr 2020</span>
+                                    <p class="my-2">
+                                        • Preserved Druva's SaaS service hosted on AWS Cloud, ensuring seamless
+                                        operations and achieving a remarkable uptime of over 99.5%.<br>
+                                        • Conducted regular cost analysis and implemented optimization measures, leading
+                                        to a 10% reduction in cloud infrastructure expenses.<br>
+                                        • Achieved a 20% increase in user satisfaction by upgrading hosted software
+                                        bi-weekly with the latest features.<br>
+                                        • Maintained 99.5% uptime by proactively monitoring the AWS cloud environment
+                                        and swiftly addressing potential issues.<br>
+                                        • Achieved and consistently upheld an impressive Service Level Agreement (SLA)
+                                        rate of over 99.5% for the cloud service.<br>
+                                        • Leveraged automation as a key strength to script out and streamline manual
+                                        processes, resulting in a 40% increase in productivity and a 50% reduction in
+                                        human intervention.<br>
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>AWS (EC2, ECS, ASG, IAM, S3, Route53, RDS, VPC, CloudWatch, CloudFormation),
+                                            Terraform, Git, Salt</p>
+                                    </div>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2">Engineer : Cloud Operation </h4>
+                                    <h4 class="mb-2">Druva Data Solution Pvt. Ltd., Pune.</h4>
+                                    <span class="time">July 2016 - April 2019</span>
+                                    <p class="my-2">
+                                        • Managed 10 plus AWS cloud services, continuously monitoring usage through AWS
+                                        APIs for optimal efficiency.<br>
+                                        • Expertly monitor and maintain cloud resources using Nagios, Grafana
+                                        (Telegram+InfluxDB), Graylog, and OSSEC to ensure effective system monitoring
+                                        with 99.9% uptime.<br>
+                                        • Enhanced log visibility by implementing robust logging mechanisms with Syslog,
+                                        Graylog, and Elasticsearch across 100+ servers.<br>
+                                        • Streamlined development process, resulting in 30% faster code releases by
+                                        efficiently deploying code changes using Salt.<br>
+                                        • Conduct thorough capacity planning to optimize resource usage and improve
+                                        system performance, resulting in 20% cost savings on cloud infrastructure.<br>
+                                        • Ensured 100% compliance with FedRamp and HIPAA regulations for cloud services
+                                        by implementing strict security measures.<br>
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>AWS, Nagios, Grafana, InfluxDB, Graylog, OSSEC, Syslog, Elasticsearch, Salt
+                                        </p>
+                                    </div>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="mb-2">Linux and VMware Server Administrator L2</h4>
+                                    <h4 class="mb-2">ASM Technology Ltd, Pune.</h4>
+                                    <span class="time">April 2015 - July 2016</span>
+                                    <p class="my-2">
+                                        <b>Client: Reliance Jio Infocomm Ltd</b><br>
+                                        • Managed Jio/4G Telecom Data Center infrastructure, leveraging HP DL380 (G8,
+                                        G9) and HP DL580 G8, ensuring optimal performance, scalability, and
+                                        reliability.<br>
+                                        • Spearheaded the deployment of Linux systems using a kickstart server,
+                                        streamlining installations, and maintaining multiple distributions (RHEL,
+                                        Ubuntu, CentOS) to ensure consistent operations while minimizing
+                                        disruptions.<br>
+                                        • Automated workflows through Shell scripts, reducing manual effort by 20%,
+                                        resolving complex RHEL OS issues, and improving system uptime by 30%.<br>
+                                        • Enhanced network performance by implementing and optimizing NIC bonding
+                                        configurations, resulting in a 25% improvement in network resilience.<br>
+                                        • Deployed and configured VMware ESXi 5, 5.5, and 6.0, centralizing host
+                                        management with vCenter Server and vSphere Client, and designing virtual
+                                        machines tailored to specific needs.<br>
+                                        • Accelerated provisioning by developing and deploying VM clones and templates,
+                                        reducing setup time by 40%, and optimizing resource allocation.<br>
+                                        • Installed and configured VMware Tools, improving guest OS performance and
+                                        seamless integration with host systems.<br>
+                                    </p>
+
+                                    <div class="tools-used">
+                                        <h5>Tools Used:</h5>
+                                        <p>HP DL380, HP DL580, Linux (RHEL, Ubuntu, CentOS), Shell Scripting, VMware
+                                            vSphere (ESXi, vCenter)</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <h4 class="mb-2">Oracle DBA</h4>
+                                    <h4 class="mb-2">Varian Software Technologies, Pune.</h4>
+                                    <span class="time">June 2014 - January 2015</span>
+                                    <p class="my-2">• Good knowledge of Oracle 10g SQL commands.<br>
+                                        • Demonstrated hands-on experience in writing SQL queries using joins,
+                                        proficiently utilizing inner joins and outer joins for data retrieval.<br>
+                                        • Developed Oracle views using subqueries, enhancing data abstraction and
+                                        simplifying complex queries.<br>
+                                        • Applied SQL set operators like Union, Minus, and Intersect to efficiently
+                                        combine and manipulate datasets.<br>
+                                        • Utilized various Oracle SQL functions such as replace, trim, substr, instr,
+                                        to_char, and to_number for data manipulation and transformation.<br>
+                                        • Possessed strong knowledge of the group by clause and aggregate functions
+                                        (sum, avg, max, min, count) to summarize and analyze data.<br>
+                                        • Implemented data restrictions using where and having clauses, ensuring precise
+                                        data filtering and aggregation.<br>
+                                        • Employed transaction control mechanisms like Commit and Rollback to maintain
+                                        data integrity during database operations.<br>
+                                        • Demonstrated expertise in Oracle SQL Data Definition Language (DDL) statements
+                                        such as Create, Alter, Drop, and Truncate for efficient database schema
+                                        management.<br>
+                                    </p>
+                                </li> -->
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>AWS</span>
+                                        <span class="text-right progress-percent">80%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="80"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Google Cloud Platform</span>
+                                        <span class="text-right progress-percent">60%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="60"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Docker</span>
+                                        <span class="text-right progress-percent">85%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="85"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Kubernetes</span>
+                                        <span class="text-right progress-percent">60%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="60"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Jenkins</span>
+                                        <span class="text-right progress-percent">80%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="80"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Terraform</span>
+                                        <span class="text-right progress-percent">70%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="70"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Ansible</span>
+                                        <span class="text-right progress-percent">70%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="70"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Linux</span>
+                                        <span class="text-right progress-percent">85%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="85"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>ShellScript</span>
+                                        <span class="text-right progress-percent">80%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="80"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Python Scripting</span>
+                                        <span class="text-right progress-percent">70%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="70"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>Git</span>
+                                        <span class="text-right progress-percent">85%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="85"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skill d-flex flex-row pr-4 pr-sm-3 px-3 mb-4">
+                                <div class="skill-progress flex-grow-1">
+                                    <div class="progresss-info d-flex flex-row justify-content-between mt-2 mb-1">
+                                        <span>SQL</span>
+                                        <span class="text-right progress-percent">70%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-percent="70"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Video Section START
+
+        <div class="section about_movie text-center d-flex flex-column align-items-center backgound-section" style="background-image: url(https://placehold.it/1920x1080)">
+            <div class="video-area">
+                <a href="https://www.youtube.com/watch?v=YjhrligRTbE" class="btn-video-play iframe_popup">
+                    <i class="fas fa-play"></i>
+                </a>
+                <p class="mt-3">Play Video</p>
+            </div>
+        </div>
+      -->
+        <!--Video Section END-->
+
+        <!--PORTFOLIO SECTION START-->
+
+
+
+        <!--PROJECT Section START-->
+
+        <div class="section project backgound-section" style="background-image: url(assets/images/bg1.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row box p-5 mx-3 mx-md-0 align-items-center text-center">
+                            <div class="col-md-4 m-0 mb-3 mb-md-0">
+                                <h3 class="m-0">Hire Me</h3>
+                            </div>
+                            <div class="col-md-4 m-0 mb-3 mb-md-0">
+                                <p class="m-0">We can create and develop together.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#contact" class="btn btn-outline-primary">Let's do this</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--CLIENT SECTION START-->
+        <div class="section testimonial backgound-section" style="background-image: url(assets/images/bg3.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div id="client_slider" class="owl-carousel owl-theme">
+                        <div class="col-12">
+                            <div
+                                class="testimonial-box d-flex flex-column flex-md-row justify-content-between align-items-start p-5">
+                                <div class="testimonial_icon mr-4">
+                                    <span class="mbri-quote-left"></span>
+                                </div>
+                                <div class="testimonial_content mt-3">
+                                    <p class="m-0">Prasad was one of the dedicated and hardworking team members for a
+                                        large project delivery that i was responsible for. He helped us deliver the
+                                        project as per committed timelines. His technical capabilities as an L2 [Server
+                                        Admin.] are worth recommending.</p>
+                                    <div class="testimonial_author row mt-3">
+                                        <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                                            <div class="row">
+                                                <div class="col-12 col-md-3">
+                                                    <div class="author_picture mr-3"
+                                                        style="background-image: url(assets/images/ashima.jpeg)"></div>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <div class="author_info py-2">
+                                                        <h3>Ashima Gera Kulkarni</h3>
+                                                        <p>Capability Product Owner,<br>Telstra.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="testimonial-box d-flex flex-column flex-md-row justify-content-between align-items-start p-5">
+                                <div class="testimonial_icon mr-4">
+                                    <span class="mbri-quote-left"></span>
+                                </div>
+                                <div class="testimonial_content mt-3">
+                                    <p class="m-0">Prasad is a very good System engineer. I have found him always very
+                                        active and helpful. He has sound knowledge in his area of expertise. He has
+                                        proved himself in different challenging situations many times. Wish him all the
+                                        best for his future Carrier.</p>
+                                    <div class="testimonial_author row mt-3">
+                                        <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                                            <div class="row">
+                                                <div class="col-12 col-md-3">
+                                                    <div class="author_picture mr-3"
+                                                        style="background-image: url(assets/images/kundan.jpeg)"></div>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <div class="author_info py-2">
+                                                        <h3>Kundan Mane</h3>
+                                                        <p>Sr. Technology Specialist,<br>Telstra.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div
+                                class="testimonial-box d-flex flex-column flex-md-row justify-content-between align-items-start p-5">
+                                <div class="testimonial_icon mr-4">
+                                    <span class="mbri-quote-left"></span>
+                                </div>
+                                <div class="testimonial_content mt-3">
+                                    <p class="m-0">Thanks Prasad, you are such a great person for me as well as whole
+                                        team as a mentor, lead, teacher, supporter and many more. I have learn so much
+                                        from you in technical and management skills. It was such a pleasure to work with
+                                        you.</p>
+                                    <div class="testimonial_author row mt-3">
+                                        <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                                            <div class="row">
+                                                <div class="col-12 col-md-3">
+                                                    <div class="author_picture mr-3"
+                                                        style="background-image: url(assets/images/nirbhika.jpeg)">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <div class="author_info py-2">
+                                                        <h3>Niharika Das</h3>
+                                                        <p>DevOps Engineer,<br>ThoughtSpot.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--CLIENT SECTION END-->
+
+        <!--CONTACT SECTION START-->
+        <section class="contact" id="contact">
+            <div class="container d-flex flex-column justify-content-between h-100 ">
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">Get in Touch</h2>
+                                <p class="m-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content flex-grow-1">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div
+                                class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
+                                <div class="contact-icon mr-md-3 mr-3 mr-sm-0">
+                                    <span class="mbri-letter"></span>
+                                </div>
+                                <div class="contact-details mt-2">
+                                    <h5>Email Us</h5>
+                                    <p><a href="mailto:yatintakale@gmail.com">yatintakale@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div
+                                class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
+                                <div class="contact-icon mr-md-3 mr-3 mr-sm-0">
+                                    <span class="mbri-mobile"></span>
+                                </div>
+                                <div class="contact-details mt-2">
+                                    <h5>Call</h5>
+                                    <p><a href="tel:+1000123456789">(+91) 09665874727</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div
+                                class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-center mb-3 text-left text-sm-center text-md-left">
+                                <div class="contact-icon mr-md-3 mr-3 mr-sm-0">
+                                    <span class="mbri-map-pin"></span>
+                                </div>
+                                <div class="contact-details mt-2">
+                                    <h5>Address</h5>
+                                    <p>Pune, Maharashtra</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /CONTACT SECTION START-->
+                    <!-- <div class="row mt-5">
+                        <div class="col-lg-12">
+                            <form action="https://formspree.io/f/mrgownov" method="POST" id="contact-form">
+                                <form action="https://formspree.io/f/mpzogvpb" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-6 mt-3">
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name" class="form-control"
+                                                autocomplete="off" required>
+                                            <label>Full Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                autocomplete="off" required>
+                                            <label>Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="form-group">
+                                            <input type="text" name="subject" id="subject" class="form-control"
+                                                autocomplete="off" required>
+                                            <label>Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="form-group">
+                                            <textarea name="text" id="text" rows="6" class="form-control"
+                                                required></textarea>
+                                            <label>Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="form-group mb-0 text-right">
+                                            <input type="submit" class="btn btn-outline-primary btn-bg" value="Send">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div> -->
+
+                </div>
+
+
+            </div>
+        </section>
+        <!-- /CONTACT SECTION END-->
+        <footer class="horizontal-footer shadow-footer">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <ul class="social-icons list-inline mt-5">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/prasad.s.takle">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/prasadtakale/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/prasadtakale">
+                                        <i class="fab fa-git"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://prasadtakale.medium.com/">
+                                        <i class="fab fa-medium"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="copyright-text mt-3 mb-5">©
+                                <script>document.write(new Date().getFullYear())</script>
+                                @prasadtakale. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+    </main>
+
+    <!--To Top Link START-->
+    <a href="#" class="toTop" id="return-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!--To Top Link END-->
+
+
+    <!--JS FILES-->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.easing.min.js"></script>
+    <script src="./assets/js/jquery.appear.min.js"></script>
+    <script src="./assets/js/jquery.countTo.js"></script>
+    <script src="./assets/js/scrollspy.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/typed.min.js"></script>
+    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/alert.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>
