@@ -55,6 +55,7 @@
                     <li><a href="#achievements" class="nav-link">Key Achievements</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#looking-for" class="nav-link">Looking For</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -444,7 +445,7 @@
                         <div class="col-lg-12">
                             <div class="text-center">
                                 <h2 data-aos="heading-show">Platform Projects</h2>
-                                <p class="m-0">Selected cloud, Kubernetes, and migration work</p>
+                                <p class="m-0">Real infrastructure work — problems, solutions, and measurable outcomes</p>
                             </div>
                         </div>
                     </div>
@@ -456,21 +457,29 @@
                             <div class="service-single text-center p-5">
                                 <h3 class="my-3">AWS Commercial to GovCloud Migration</h3>
                                 <p style="text-align:left;">
-                                    Led the migration of a production microservices platform from AWS Commercial to AWS
-                                    GovCloud, redesigning infrastructure, planning database migration, and ensuring
-                                    secure production cutover for regulated workloads.
+                                    Architected and executed the full AWS Commercial to GovCloud migration for a
+                                    production microservices platform. Redesigned VPC topology, IAM partition
+                                    handling, Aurora PostgreSQL cluster, and GovCloud-specific API Gateway
+                                    configuration. Delivered 100% FedRAMP compliance with zero data loss during
+                                    cutover. Performed controlled PostgreSQL dump-and-restore with pre-cutover row
+                                    count validation under live production workloads.
                                 </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> AWS GovCloud, VPC, IAM, Aurora PostgreSQL, API Gateway, EKS, Terraform</small></p>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 mt-4 mb-2">
                             <div class="service-single text-center p-5">
-                                <h3 class="my-3">Secure EKS Microservices Platform</h3>
+                                <h3 class="my-3">Secure EKS Ingress Architecture</h3>
                                 <p style="text-align:left;">
-                                    Built and operated Kubernetes-based microservices platforms on EKS with ALB
-                                    Ingress, API Gateway, WAF, TLS, autoscaling, and secure service routing for
-                                    production applications.
+                                    Designed end-to-end secure ingress architecture for FedRAMP-aligned production
+                                    environments: API Gateway → VPC Link → NLB → ALB → EKS with AWS WAF and Cognito
+                                    authentication. Reduced external attack surface by 40% and eliminated direct
+                                    public exposure of Kubernetes-hosted services. Diagnosed and resolved production
+                                    WAF false-positive incidents using ScopeDownStatements and targeted IP set
+                                    exclusions.
                                 </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> EKS, API Gateway, ALB, NLB, AWS WAF, Cognito, VPC Link, TLS</small></p>
                             </div>
                         </div>
 
@@ -478,9 +487,53 @@
                             <div class="service-single text-center p-5">
                                 <h3 class="my-3">Terraform Multi-Environment Infrastructure</h3>
                                 <p style="text-align:left;">
-                                    Implemented modular Terraform frameworks for Dev, QA, Stage, Prod, and GovCloud
-                                    environments, improving provisioning speed, consistency, and operational readiness.
+                                    Designed reusable Terraform modules with standardised variable structures across
+                                    dev, staging, production, and GovCloud environments. Eliminated per-environment
+                                    rewrites and enabled consistent multi-environment deployments. Accelerated
+                                    infrastructure provisioning by 35% — from two days to one hour.
                                 </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> Terraform, AWS, EKS, VPC, IAM, RDS, ECR</small></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <h3 class="my-3">DevSecOps Pipeline & FedRAMP Compliance</h3>
+                                <p style="text-align:left;">
+                                    Integrated SonarQube SAST, AWS Inspector v2, and Tenable into Jenkins CI/CD
+                                    pipelines. Configured severity-based policy gates blocking Critical and High
+                                    vulnerability findings before deployment. Improved release reliability by 30%
+                                    and closed 100% of FedRAMP CI/CD audit findings.
+                                </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> Jenkins, SonarQube, AWS Inspector v2, Tenable, ECR Image Scanning, GitHub Actions</small></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <h3 class="my-3">EKS Self-Service Platform for App Teams</h3>
+                                <p style="text-align:left;">
+                                    Architected an Amazon EKS platform with autoscaling, Helm deployment standards,
+                                    RBAC, namespace isolation, IRSA-based service accounts, and ALB ingress. Enabled
+                                    2+ application teams managing 10+ microservices to deploy independently with
+                                    standardised self-service workflows — eliminating manual DevOps involvement per
+                                    deployment.
+                                </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> EKS, Helm, IRSA, RBAC, ALB, Jenkins, GitHub Actions, Terraform</small></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-5">
+                                <h3 class="my-3">Production Observability & MTTR Reduction</h3>
+                                <p style="text-align:left;">
+                                    Implemented database-layer observability for Aurora PostgreSQL using
+                                    pg_stat_statements, Loki, and Grafana dashboards. Provided query-level
+                                    performance visibility that shortened root cause identification from hours to
+                                    minutes. Reduced EKS P1 incident MTTR by 25% — from approximately 4 hours
+                                    to 30 minutes.
+                                </p>
+                                <p style="text-align:left;"><small><strong>Stack:</strong> Loki, Grafana, CloudWatch, ELK Stack, Aurora PostgreSQL, pg_stat_statements</small></p>
                             </div>
                         </div>
                     </div>
@@ -571,20 +624,26 @@
                             <h4 class="mb-2">Enterprise Minds, Pune</h4>
                             <span class="time">Nov 2022 - Mar 2025</span>
                             <p class="my-2">
-                                • Led a team of 4 DevOps engineers, improving delivery efficiency by 20% while
-                                maintaining production stability.<br>
-                                • Designed and supported Kubernetes clusters to ensure high availability, efficient
-                                resource usage, and smooth application scaling.<br>
-                                • Managed AWS and GCP cloud environments, focusing on performance optimization and
-                                operational reliability.<br>
-                                • Guided application teams on containerization and deployment best practices, helping
-                                transition from Docker Compose to production-grade Kubernetes setups.<br>
-                                • Collaborated with stakeholders to align infrastructure decisions with business and
-                                security requirements.<br>
+                                • Architected Amazon EKS platforms with autoscaling, Helm deployment standards, RBAC,
+                                namespace isolation, IRSA-based service account configuration, and ALB ingress. Enabled
+                                2+ application teams managing 10+ microservices to deploy with standardised, self-service
+                                workflows — eliminating manual DevOps involvement per deployment.<br>
+                                • Eliminated manual deployment bottlenecks across 10+ microservices by standardising
+                                Jenkins and GitHub Actions CI/CD pipeline templates. Reduced average deployment cycle
+                                time and accelerated onboarding of new services.<br>
+                                • Built reusable Terraform modules and self-service infrastructure automation for
+                                multi-environment AWS platform provisioning. Enabled application teams to provision
+                                environments independently, removing DevOps as a provisioning bottleneck.<br>
+                                • Deployed and administered on-premises Kubernetes clusters using kubeadm for development
+                                and testing workloads. Migrated 100% of application workloads from Docker Compose to
+                                Kubernetes.<br>
+                                • Defined cloud infrastructure and Kubernetes platform standards to improve reliability,
+                                security, and maintainability. Provided technical guidance to engineers on
+                                containerization and deployment best practices.<br>
                             </p>
                             <div class="tools-used">
                                 <h5>Tools Used:</h5>
-                                <p>AWS, GCP, Kubernetes, Docker Compose, Shell Scripting, Jira, Confluence</p>
+                                <p>AWS, Amazon EKS, Kubernetes, Terraform, Helm, Jenkins, GitHub Actions, ELK, Grafana, Docker, IRSA</p>
                             </div>
                         </li>
 
@@ -685,38 +744,39 @@
 
                 <div class="col-lg-6 mb-3">
                     <div class="service-single p-4 h-100">
-                        <h4>Cloud & Infrastructure</h4>
-                        <p class="m-0"><strong>Cloud:</strong> AWS (Commercial & GovCloud), GCP</p>
-                        <p class="m-0"><strong>IaC:</strong> Terraform, CloudFormation, Ansible</p>
-                        <p class="m-0"><strong>Networking:</strong> ALB, NLB, API Gateway, VPC, IAM</p>
+                        <h4>Cloud Platforms & Architecture</h4>
+                        <p class="m-0"><strong>Cloud:</strong> AWS Commercial, AWS GovCloud</p>
+                        <p class="m-0"><strong>Compute & Storage:</strong> EC2, S3, RDS, ECR, Lambda, CloudFront, Auto Scaling, Transit Gateway</p>
+                        <p class="m-0"><strong>IaC:</strong> Terraform (modular, multi-environment), CloudFormation, Ansible</p>
+                        <p class="m-0"><strong>Networking:</strong> API Gateway, VPC Link, ALB, NLB, VPC, Security Groups, IAM, AWS Cognito, AWS Network Firewall, TLS, DNS</p>
                     </div>
                 </div>
 
                 <div class="col-lg-6 mb-3">
                     <div class="service-single p-4 h-100">
-                        <h4>Containers & CI/CD</h4>
-                        <p class="m-0"><strong>Containers:</strong> Kubernetes, EKS, Docker, Ingress</p>
+                        <h4>Kubernetes & Containers</h4>
+                        <p class="m-0"><strong>Platform:</strong> Amazon EKS, Kubernetes, EKS Managed Node Groups, Docker</p>
+                        <p class="m-0"><strong>Deployment:</strong> Helm, AWS Load Balancer Controller, Ingress, Service Discovery</p>
+                        <p class="m-0"><strong>Operations:</strong> IRSA, RBAC, Namespace Isolation, HPA/VPA, CoreDNS, ExternalDNS, TLS</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-3">
+                    <div class="service-single p-4 h-100">
+                        <h4>CI/CD & DevSecOps</h4>
                         <p class="m-0"><strong>CI/CD:</strong> Jenkins, GitHub Actions, AWS CodePipeline</p>
-                        <p class="m-0"><strong>Scripting:</strong> Bash, Python, Git</p>
+                        <p class="m-0"><strong>SAST & Scanning:</strong> SonarQube, AWS Inspector v2, ECR Image Scanning, Tenable</p>
+                        <p class="m-0"><strong>Security:</strong> AWS WAF, AWS Security Hub, IAM least privilege, Zero Trust, CIS Benchmark Hardening, Secrets Management</p>
+                        <p class="m-0"><strong>Compliance:</strong> FedRAMP, HIPAA, Audit-ready infrastructure, Secure SDLC</p>
                     </div>
                 </div>
 
                 <div class="col-lg-6 mb-3">
                     <div class="service-single p-4 h-100">
-                        <h4>Security & DevSecOps</h4>
-                        <p class="m-0"><strong>Security:</strong> AWS WAFv2, FedRAMP Controls, IAM</p>
-                        <p class="m-0"><strong>Scanning:</strong> SonarQube, Container Image Scanning, Tenable</p>
-                        <p class="m-0"><strong>Compliance:</strong> Audit-ready cloud environments and secure deployment
-                            practices</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mb-3">
-                    <div class="service-single p-4 h-100">
-                        <h4>Observability & Data</h4>
-                        <p class="m-0"><strong>Monitoring:</strong> ELK Stack, Grafana, CloudWatch</p>
-                        <p class="m-0"><strong>Databases:</strong> PostgreSQL, MongoDB</p>
-                        <p class="m-0"><strong>Operations:</strong> Backup/restore, RBAC, tuning, troubleshooting</p>
+                        <h4>Observability, Data & Scripting</h4>
+                        <p class="m-0"><strong>Monitoring:</strong> ELK Stack, Grafana, Loki, CloudWatch, Kibana, Distributed Tracing, SLI/SLO</p>
+                        <p class="m-0"><strong>Databases:</strong> PostgreSQL, Aurora PostgreSQL, MongoDB</p>
+                        <p class="m-0"><strong>Scripting & OS:</strong> Bash, Python, Linux (RHEL, Ubuntu, CentOS), Ubuntu 22.04 CIS Hardening, Git</p>
                     </div>
                 </div>
             </div>
@@ -735,7 +795,7 @@
                                 <h3 class="m-0">Open to Opportunities</h3>
                             </div>
                             <div class="col-md-4 m-0 mb-3 mb-md-0">
-                                <p class="m-0">Senior DevOps and Platform Engineering roles across Europe.</p>
+                                <p class="m-0">Senior DevOps, Cloud Platform, and DevSecOps roles — Pune-based or remote India.</p>
                             </div>
                             <div class="col-md-4">
                                 <a href="#contact" class="btn btn-outline-primary">Get in Touch</a>
@@ -847,6 +907,54 @@
                 </div>
             </div>
         </div>
+
+        <section class="services" id="looking-for" style="background: var(--bg-secondary, #f8f9fa);">
+            <div class="container d-flex flex-column justify-content-between h-100">
+                <div class="section-title flex-grow-1">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2 data-aos="heading-show">What I'm Looking For</h2>
+                                <p class="m-0">Hands-on technical roles where architecture, automation, and production impact matter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-content flex-grow-1">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <p class="text-center mb-4">
+                                I'm open to senior technical IC opportunities at product-based companies where I can own and deliver infrastructure that matters — cloud platform engineering, Kubernetes architecture, DevSecOps automation, and production reliability.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-4">
+                                <div class="service-icon"><span class="mbri-setting3"></span></div>
+                                <h4 class="my-3">Role Types</h4>
+                                <p style="text-align:left;">Senior / Staff DevOps Engineer &bull; Cloud Platform Engineer &bull; Kubernetes Platform Engineer &bull; DevSecOps Engineer &bull; Cloud Infrastructure Architect &bull; DevOps Architect &bull; Platform Engineering Lead (IC track)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-4">
+                                <div class="service-icon"><span class="mbri-code"></span></div>
+                                <h4 class="my-3">What I Want to Do</h4>
+                                <p style="text-align:left;">Design and implement cloud architecture &bull; Own platform automation end-to-end &bull; Solve complex production problems &bull; Build DevSecOps pipelines &bull; Improve developer experience &bull; Drive infrastructure reliability and observability</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 mb-2">
+                            <div class="service-single text-center p-4">
+                                <div class="service-icon"><span class="mbri-map-pin"></span></div>
+                                <h4 class="my-3">Preferences</h4>
+                                <p style="text-align:left;">Product-based companies &bull; Pune-based or remote India &bull; AWS / Kubernetes / Terraform-heavy environments &bull; Compliance-aware or security-focused platforms &bull; Hands-on technical ownership, not delivery management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="contact" id="contact">
             <div class="container d-flex flex-column justify-content-between h-100">
