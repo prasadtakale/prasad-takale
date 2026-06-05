@@ -3,7 +3,7 @@
 
 <head>
     <meta name="description"
-        content="Prasad Takale is a Senior DevOps Engineer with 10+ years of experience in AWS, Kubernetes, Terraform, CI/CD, DevSecOps, and FedRAMP-aligned cloud infrastructure.">
+        content="Prasad Takale is a Senior / Staff DevOps Engineer with 11+ years of experience in AWS GovCloud, Amazon EKS, Kubernetes, Terraform, DevSecOps, FedRAMP-aligned SaaS platforms, and cloud infrastructure architecture.">
     <meta name="keywords"
         content="Prasad Takale, Senior DevOps Engineer, AWS, Kubernetes, Terraform, DevSecOps, EKS, CI/CD, Platform Engineer, GovCloud">
     <meta name="robots" content="index, follow, noodp">
@@ -124,28 +124,30 @@
                             <h3 class="m-0">I'm Prasad Takale</h3>
 
                             <p class="my-4">
-                                Senior DevOps and Platform Engineer with 10+ years of experience designing and operating secure, scalable cloud
-                                platforms on AWS, including regulated GovCloud environments aligned with FedRAMP standards. My work focuses on
-                                Kubernetes (EKS), Terraform-based infrastructure as code, CI/CD automation, and DevSecOps practices for large-scale
-                                microservices platforms.
+                                Senior DevOps and Cloud Platform Engineer with <span id="about-experience-years"></span> years of hands-on IC
+                                experience designing, implementing, and operating cloud-native infrastructure for FedRAMP-aligned SaaS platforms
+                                across AWS Commercial and GovCloud. Specialized in Amazon EKS platform architecture, Terraform-based
+                                infrastructure automation, DevSecOps-integrated CI/CD, and secure cloud networking — including end-to-end design
+                                of API Gateway → VPC Link → NLB → ALB → EKS ingress architectures with AWS WAF integration.
                             </p>
 
                             <p>
-                                I specialize in building reliable infrastructure platforms, automating multi-environment deployments, and
-                                integrating security directly into delivery pipelines. My work has delivered measurable impact across production
-                                systems:
+                                I operate as a senior technical IC and architecture owner — not in a people management capacity. My focus is on
+                                designing, implementing, and troubleshooting complex cloud infrastructure systems that deliver measurable
+                                production impact:
                             </p>
 
                             <ul>
-                                <li>30% improvement in deployment reliability</li>
-                                <li>35–50% reduction in infrastructure provisioning time</li>
-                                <li>40% reduction in external security exposure</li>
-                                <li>99.9% availability for mission-critical SaaS platforms</li>
+                                <li>99.9% availability for FedRAMP-aligned production SaaS platforms</li>
+                                <li>40% reduction in external attack surface through secure ingress architecture</li>
+                                <li>35% faster infrastructure provisioning via reusable Terraform modules</li>
+                                <li>30% improvement in release reliability through DevSecOps CI/CD controls</li>
+                                <li>25% reduction in EKS P1 incident MTTR through observability improvements</li>
                             </ul>
 
                             <p>
-                                Beyond the technical work, I have experience leading DevOps teams, collaborating with engineering and security
-                                teams, and supporting audit and compliance processes in regulated environments.
+                                My background spans AWS GovCloud migrations, Kubernetes platform engineering, DevSecOps automation,
+                                FedRAMP compliance, and production troubleshooting across large-scale containerized environments.
                             </p>
 
                             <div class="row">
@@ -908,7 +910,7 @@
             </div>
         </div>
 
-        <section class="services" id="looking-for" style="background: var(--bg-secondary, #f8f9fa);">
+        <section class="services" id="looking-for">
             <div class="container d-flex flex-column justify-content-between h-100">
                 <div class="section-title flex-grow-1">
                     <div class="row">
@@ -1082,9 +1084,11 @@
                 const text = years + "+ years";
                 const expText = document.getElementById("experience-years");
                 const expCounter = document.getElementById("experience-counter");
+                const aboutExp = document.getElementById("about-experience-years");
 
                 if (expText) expText.textContent = text;
                 if (expCounter) expCounter.textContent = years;
+                if (aboutExp) aboutExp.textContent = years + "+";
             })();
     </script>
 </body>
